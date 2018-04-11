@@ -56,6 +56,10 @@ app.get('/recipes', (req, res) => {
 
 app.post('/recipes', jsonParser, (req, res) => {
     const requiredFields = ['name', 'ingredients'];
+    //name is string, ingredients are array
+    //more code here
+
+
 })
 
 app.listen(process.env.PORT || 8080, () => {
